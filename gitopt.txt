@@ -1,3 +1,15 @@
+Git 基本操作
+1.git init              用 git init 在目录中创建新的 Git 仓库。
+2.git clone           使用 git clone 拷贝一个 Git 仓库到本地，让自己能够查看该项目，或者进行修改。
+3.git add	           git add 命令可将该文件添加到缓存
+4.git status          git status 以查看在你上次提交之后是否有修改。
+5.git diff	           执行 git diff 来查看执行 git status 的结果的详细信息。
+6.git commit        使用 git add 命令将想要快照的内容写入缓存区， 而执行 git commit 将缓存区内容添加到仓库中。
+7.git reset HEAD   git reset HEAD 命令用于取消已缓存的内容。
+8.git rm                如果只是简单地从工作目录中手工删除文件，运行 git status 时就会在 Changes not staged for commit 的提示。
+9.git mv	           git mv 命令用于移动或重命名一个文件、目录、软连接。
+
+操作流程
 1.git add readme.txt  /*工作区添加文件到缓存*/
 2.git status -s  /*查看项目的当前状态*/
 3.git commit -m  '第一次版本提交'  /*提交文件到本地仓库*/
