@@ -1,0 +1,4 @@
+1.git add readme.txt
+2.git status -s
+3.git commit -m '第一次版本提交'
+4.git push
