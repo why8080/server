@@ -1,4 +1,4 @@
-1.git add readme.txt
-2.git status -s
-3.git commit -m '第一次版本提交'
-4.git push
+1.git add readme.txt  /*工作区添加文件到缓存*/
+2.git status -s  /*查看项目的当前状态*/
+3.git commit -m  '第一次版本提交'  /*提交文件到本地仓库*/
+4.git push  /*提交文件到网络仓库源*/
